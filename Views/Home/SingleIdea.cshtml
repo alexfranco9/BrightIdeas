@@ -1,0 +1,36 @@
+<br>
+
+<div class="col text-right" style="text-decoration: underline;">
+<a href="/dashideas">Bright Ideas</a> <span> | </span> <a href="/logout">Log Out</a>
+</div>
+<br>
+
+<h5> <a href="/user/@ViewBag.SingleIdea.UserId">@ViewBag.SingleIdea.Creator.Name</a>  says: </h5>
+<p class="ideaBox"> @ViewBag.SingleIdea.Title </p>
+
+<br>
+<hr>
+<br>
+
+<h6> People who liked this post. </h6>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Alias</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (Like idea in ViewBag.SingleIdea.Likes)
+            {
+                <tr>
+                    <td> <a href="/user/@idea.UserId">@idea.User.Alias</a> </td>
+                    <td> @idea.User.Name </td>
+                </tr>
+            }
+        }
+        
+    </tbody>
+</table>

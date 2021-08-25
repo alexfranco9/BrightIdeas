@@ -1,0 +1,32 @@
+@model User
+
+<br>
+
+<h1>Hi @ViewBag.LoggedUser.Name!</h1>
+<div class="col text-right" style="text-decoration: underline;">
+<a href="/logout">Log Out</a>
+</div>
+<hr>
+<br>
+<div>
+    <partial name="NewIdeaPartial"/>
+</div>
+
+<div>
+    
+    @{
+        foreach (Idea idea in ViewBag.AllIdeas)
+    {
+        <h5> <a href="user/@idea.Creator.UserId">@idea.Creator.Name</a>  says: </h5> 
+        <p class="ideaBox"> @idea.Title </p>
+        <div class="ideaNext">
+        <a href="/ideas/@idea.IdeaId/like"> Like </a> | <a href="/ideas/@idea.IdeaId"> @idea.Likes.Count people </a>  <span> Like this. </span> 
+        @if(ViewBag.LoggedUser.UserId == idea.UserId)
+        {
+            <a href="/idea/@idea.IdeaId/delete" class="text-danger">Delete</a>
+        }
+        </div>
+    }
+    }
+
+</div>
