@@ -58,7 +58,8 @@
 /Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/obj/Debug/netcoreapp3.1/BrightIdeas.dll
 /Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/obj/Debug/netcoreapp3.1/BrightIdeas.pdb
 /Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/obj/Debug/netcoreapp3.1/BrightIdeas.genruntimeconfig.cache
-/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/obj/Debug/netcoreapp3.1/Razor/Views/Home/DashIdeas.cshtml.g.cs
 /Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/obj/Debug/netcoreapp3.1/Razor/Views/Home/NewIdeaPartial.cshtml.g.cs
 /Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/obj/Debug/netcoreapp3.1/Razor/Views/Home/SingleIdea.cshtml.g.cs
 /Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/obj/Debug/netcoreapp3.1/Razor/Views/Home/SingleUser.cshtml.g.cs
+/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/obj/Debug/netcoreapp3.1/Razor/Views/Home/Feed.cshtml.g.cs
+/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/obj/Debug/netcoreapp3.1/Razor/Views/Home/EditForm.cshtml.g.cs

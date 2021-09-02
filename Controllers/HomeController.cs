@@ -44,7 +44,7 @@ namespace BrightIdeas.Controllers
                 _context.Users.Add(newUser);
                 _context.SaveChanges();
 
-                return RedirectToAction("dashideas");
+                return RedirectToAction("Feed");
             }
             return View("Index");
         }
@@ -77,15 +77,15 @@ namespace BrightIdeas.Controllers
 
                 HttpContext.Session.SetInt32("userId", userInDb.UserId);
 
-                return RedirectToAction("dashideas");
+                return RedirectToAction("Feed");
 
             }
 
             return View("Index");
         }
 
-        [HttpGet("dashideas")]
-        public IActionResult DashIdeas()
+        [HttpGet("Feed")]
+        public IActionResult Feed()
         {
             int? loggedUserId = HttpContext.Session.GetInt32("userId");
             if(loggedUserId == null) return RedirectToAction("Index");
@@ -115,7 +115,7 @@ namespace BrightIdeas.Controllers
                 _context.Add(newIdea);
                 _context.SaveChanges();
                 
-                return RedirectToAction("dashideas");
+                return RedirectToAction("Feed");
             }
 
             ViewBag.LoggedUser = _context.Users.FirstOrDefault(user => user.UserId == loggedUserId);
@@ -127,7 +127,32 @@ namespace BrightIdeas.Controllers
             
             ViewBag.AllUsers = _context.Users.ToList();
 
-            return View("DashIdeas");   
+            return View("Feed");   
+        }
+
+        [HttpGet("idea/{ideaId}/edit")]
+        public IActionResult EditForm(int ideaId)
+        {
+            Idea displayMe = _context.Ideas
+                .FirstOrDefault(idea => idea.IdeaId == ideaId);
+
+            return View(displayMe);
+        }
+
+        [HttpPost("ideas/submitEdit")]
+        public IActionResult SubmitEdit(Idea editedIdea)
+        {
+            int? loggedUserId = HttpContext.Session.GetInt32("userId");
+            if(loggedUserId == null) return RedirectToAction("Index");
+
+            Idea editMe = _context.Ideas
+                .FirstOrDefault(idea => idea.IdeaId == editedIdea.IdeaId);
+
+            editMe.Title = editedIdea.Title;
+
+            _context.SaveChanges();
+
+            return RedirectToAction("SingleIdea", new {id = editedIdea.IdeaId});
         }
 
         [HttpGet("idea/{ideaId}/delete")]
@@ -142,7 +167,7 @@ namespace BrightIdeas.Controllers
             _context.Ideas.Remove(deleteMe);
             _context.SaveChanges();
 
-            return RedirectToAction("dashideas");
+            return RedirectToAction("Feed");
         }
 
         [HttpGet("user/{id}")]
@@ -197,10 +222,10 @@ namespace BrightIdeas.Controllers
             }
             else
             {
-                return RedirectToAction("dashideas");
+                return RedirectToAction("Feed");
             }
             
-            return RedirectToAction("dashideas");
+            return RedirectToAction("Feed");
         }
 
         [HttpGet("logout")]

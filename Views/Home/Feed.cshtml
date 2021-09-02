@@ -23,7 +23,8 @@
         <a href="/ideas/@idea.IdeaId/like"> Like </a> | <a href="/ideas/@idea.IdeaId"> @idea.Likes.Count people </a>  <span> Like this. </span> 
         @if(ViewBag.LoggedUser.UserId == idea.UserId)
         {
-            <a href="/idea/@idea.IdeaId/delete" class="text-danger">Delete</a>
+            <a href="/idea/@idea.IdeaId/edit" class="col text-right">Edit</a>
+            <a href="/idea/@idea.IdeaId/delete" class="col text-right text-danger">Delete</a>
         }
         </div>
     }

@@ -14402,18 +14402,23 @@
   "RootNamespace": "BrightIdeas",
   "Documents": [
     {
+      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/Feed.cshtml",
+      "TargetPath": "Views\\Home\\Feed.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/EditForm.cshtml",
+      "TargetPath": "Views\\Home\\EditForm.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/DashIdeas.cshtml",
-      "TargetPath": "Views\\Home\\DashIdeas.cshtml",
+      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
