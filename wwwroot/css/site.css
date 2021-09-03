@@ -78,7 +78,7 @@ body {
 }
 
 #flexContainer{
-  margin: auto 35px;
+  margin: auto 25px;
   display: flex;
   justify-content: space-between;
 }
@@ -94,8 +94,9 @@ body {
 }
 
 .ideaBox{
-  width: 90%;
+  width: 85%;
   margin: 10px auto;
+  padding: 5px;
   display: flex;
   justify-content: flex-start;
   border: 1px solid rgb(74, 74, 74);
@@ -103,6 +104,6 @@ body {
 }
 
 .ideaNext{
-  width: 90%;
-  margin: 10px auto;
+  width: 85%;
+  margin: 15px auto;
 }
