@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/BrightIdeas.csproj": {}
+    "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/BrightIdeas.csproj": {}
   },
   "projects": {
-    "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/BrightIdeas.csproj": {
+    "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/BrightIdeas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/BrightIdeas.csproj",
+        "projectUniqueName": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/BrightIdeas.csproj",
         "projectName": "BrightIdeas",
-        "projectPath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/BrightIdeas.csproj",
+        "projectPath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/BrightIdeas.csproj",
         "packagesPath": "/Users/franco/.nuget/packages/",
-        "outputPath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/obj/",
+        "outputPath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/franco/.nuget/NuGet/NuGet.Config"

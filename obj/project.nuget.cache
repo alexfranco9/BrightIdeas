@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rUIDPimgXLIk58z6IqCFQfwwk2pypsw50K8SJWsSUudPw8HK+9y//MvZsjQJk1tSpy7tdogK8Wu3ls0vhnb2cQ==",
+  "dgSpecHash": "EoEdSvgPmU7V4hTbT8jfcUsTIW/xtg2LSl8esykRwHhxYIMyc4+EMt9LlnK+d+S6YF8ADcqKJpTx686hagLcLQ==",
   "success": true,
-  "projectFilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/BrightIdeas.csproj",
+  "projectFilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/BrightIdeas.csproj",
   "expectedPackageFiles": [
     "/Users/franco/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/franco/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

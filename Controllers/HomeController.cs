@@ -43,8 +43,9 @@ namespace BrightIdeas.Controllers
 
                 _context.Users.Add(newUser);
                 _context.SaveChanges();
-
-                return RedirectToAction("Feed");
+                
+                TempData["Message"] = "Registered Successfully. Please Login.";
+                return RedirectToAction("Index");
             }
             return View("Index");
         }

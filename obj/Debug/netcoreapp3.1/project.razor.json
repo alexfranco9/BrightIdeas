@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/BrightIdeas.csproj",
+  "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/BrightIdeas.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,68 +14402,68 @@
   "RootNamespace": "BrightIdeas",
   "Documents": [
     {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/Feed.cshtml",
-      "TargetPath": "Views\\Home\\Feed.cshtml",
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Home/RegisterPartial.cshtml",
+      "TargetPath": "Views\\Home\\RegisterPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/EditForm.cshtml",
-      "TargetPath": "Views\\Home\\EditForm.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/SingleIdea.cshtml",
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Home/SingleIdea.cshtml",
       "TargetPath": "Views\\Home\\SingleIdea.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/SingleUser.cshtml",
-      "TargetPath": "Views\\Home\\SingleUser.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/LoginPartial.cshtml",
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Home/LoginPartial.cshtml",
       "TargetPath": "Views\\Home\\LoginPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/NewIdeaPartial.cshtml",
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Home/EditForm.cshtml",
+      "TargetPath": "Views\\Home\\EditForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Home/Feed.cshtml",
+      "TargetPath": "Views\\Home\\Feed.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Home/SingleUser.cshtml",
+      "TargetPath": "Views\\Home\\SingleUser.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Home/NewIdeaPartial.cshtml",
       "TargetPath": "Views\\Home\\NewIdeaPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/franco/coding_dojo/c#/ORMs/BeltExam/BrightIdeas/Views/Home/RegisterPartial.cshtml",
-      "TargetPath": "Views\\Home\\RegisterPartial.cshtml",
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/franco/Coding/c#/ORMs/FullStackProjects/BrightIdeas/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
